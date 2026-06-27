@@ -4,6 +4,7 @@ O objetivo desse projeto é criar um NotebookLM que vai ajudar o usuário a sana
 
 ## Ideias de Prompts
 Primeiro Prompt
+
 Forneça 5 recomendações de segurança para aplicar em qualquer tenant, visão seguir o protocolo de Zero Trust.
 
 Sua resposta deve ser estruturada da segunte forma:
@@ -13,6 +14,7 @@ Sua resposta deve ser estruturada da segunte forma:
 Coloque as recomendações em ordem de prioridade, ou seja, as que geram maior impacto em primeiro
 
 Segundo Prompt
+
 Mostre um paralelo entre as diferenças dos planos do Entra ID P1 e P2.
 Monte uma tabela mostrando as funções que cada um tem seguindo um esquema parecido com esse:
 			P1 X P2
