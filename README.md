@@ -6,7 +6,6 @@ O tema escolhido foi Microsoft Entra ID, por ser atualmente uma das principais s
 
 A proposta foi utilizar documentação oficial da Microsoft para construir uma base de conhecimento capaz de responder perguntas técnicas, comparar funcionalidades, auxiliar em troubleshooting e servir como material de consulta rápida. 
 
-
 ## Objetivos
 
 - Aprender a utilizar o NotebookLM como ferramenta de estudos.
@@ -261,8 +260,58 @@ O **Microsoft Entra ID** é o principal produto da família Microsoft Entra, atu
 | Managed Identity    | Identidade para recursos Azure |
 | Enterprise App      | Aplicação corporativa          |
 
-### Prompts reutilizáveis
+### Biblioteca de Prompts
+```text
+Crie um simulado com 10 questões de múltipla escolha sobre Microsoft Entra ID.
 
+Ao final apresente o gabarito com explicação detalhada de cada resposta.
+```
+```text
+Explique o seguinte recurso do Microsoft Entra:
+
+[Nome do recurso]
+
+A resposta deve conter:
+- Definição
+- Funcionamento
+- Benefícios
+- Pré-requisitos
+- Licenciamento
+- Exemplo prático
+- Boas práticas
+```
+```text
+Estou enfrentando o seguinte problema no Microsoft Entra:
+
+[Descreva o problema]
+
+Analise possíveis causas.
+
+Monte uma sequência lógica de troubleshooting começando pelas verificações mais simples até as mais complexas.
+
+Sempre informe em qual tela do portal Microsoft Entra cada etapa deve ser realizada.
+```
+```text
+Liste as principais recomendações de segurança para este ambiente utilizando o modelo Zero Trust.
+[Descreva o seu Ambiente]
+Para cada recomendação informe:
+- Objetivo
+- Benefício
+- Licenciamento necessário
+- Passo a passo de implementação
+- Impacto na segurança
+```
+```text
+Faça um resumo do conteúdo disponível no NotebookLM.
+
+Estruture em:
+
+- Principais conceitos
+- Funcionalidades
+- Recursos importantes
+- Melhores práticas
+- Perguntas para revisão
+```
 ## Conclusão
 
 O NotebookLM mostrou ser uma excelente ferramenta para transformar documentação técnica extensa em uma base de conhecimento consultável.
